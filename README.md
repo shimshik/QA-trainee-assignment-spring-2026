@@ -1,2 +1,31 @@
 # QA-trainee-assignment-spring-2026
-Solution to the test assignment for the internship at Avito during the spring wave.
+
+- **Task1/**
+    - Bugs.png(выделенные на скрине баги)
+    - solution.md(решение для первого задания)
+- **Task2/**
+  - **pages/** (паттерн PageObject)
+    - **locators/**
+      - __init__.py
+      - main_page_locators.py(локаторы с главной страницы сайта)
+      - mobile_page_locators.py(локаторы с мобильной страницы сайта)
+      - static_page_locators.py(локаторы с страницы статистики сайта)
+    - __init__.py
+    - base_page.py (базовые методы работы с веб-элементами)
+    - main_page.py (методы работы с веб-элементами главной страницы)
+    - mobile_page.py (методы работы с веб-элементами мобильной страницы)
+    - static_page.py (методы работы с веб-элементами страницы статистики)
+  - **tests/**(Автотесты)
+    - __init__.py
+    - test_main_page.py (файл с автотестами главной страницы)
+    - test_mobile_page.py (файл с автотестами мобильной версии)
+    - test_static_page.py (файл с автотестами страницы статистики)
+  - **utils/**(Утилиты для генерации тестовых данных)
+    - __init__.py
+    - testdata.py (файл с методами генерации тестовых данных и заготовками для параметризации)
+  - README.md (инструкция по запуску)
+  - bugs.md (баг-репорты)
+  - conftest.py (фикстуры)
+  - requirements.txt (необходимые зависимости)
+  - testcases.md (тест-кейсы)
+- README.md (структура проекта)
