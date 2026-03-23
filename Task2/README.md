@@ -1,6 +1,11 @@
 # Инструкция по запуску тестов
 
-## 1. Активировать виртуальное окружение
+## 1. Склонировать репозиторий
+
+git clone https://github.com/shimshik/QA-trainee-assignment-spring-2026.git
+cd QA-trainee-assignment-spring-2026
+
+## 2. Активировать виртуальное окружение
 
 # Windows
 venv\Scripts\activate
@@ -8,10 +13,10 @@ venv\Scripts\activate
 # macOS / Linux
 source venv/bin/activate
 
-## 2. Установите зависимости
+## 3. Установите зависимости
 
 pip install -r requirements.txt
 
-## 3. Запустите тесты
+## 4. Запустите тесты
 
 pytest tests/
