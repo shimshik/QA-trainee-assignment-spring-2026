@@ -20,7 +20,7 @@ class PriceGetter:
                 break
 
             page_number += 1
-            if page_number == 3:
+            if page_number == 15:
                 return all_prices
 
         return all_prices
@@ -98,7 +98,7 @@ class CardCategoryGetter:
                 break
 
             page_number += 1
-            if page_number == 3:
+            if page_number == 15:
                 return all_category
 
         return all_category
@@ -128,7 +128,7 @@ class CardGetter:
                 break
 
             page_number += 1
-            if page_number == 3:
+            if page_number == 15:
                 return all_cards
 
         return all_cards
